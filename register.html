@@ -1,0 +1,57 @@
+<!doctype html>
+ <html>
+  <head>
+  <meta charset="utf-8">
+  <title> Register </title>
+ </head>
+
+<body>
+ <center><a href="index.html">HOMEPAGE </a>&nbsp;
+  <a href="films.html">FILMS</a>&nbsp;
+  <a href="books.html">BOOKS</a>&nbsp;
+  <a href="musics.html">MUSICS</a>&nbsp;
+  <a href="usefullinks.html">USEFUL LINKS</a>&nbsp;
+  <a href="contactme.html">CONTACT ME</a>&nbsp;
+  <a href="register.html"><font size="5">REGISTER</font></a>&nbsp;<br><br><br>
+
+ <br><br><br>
+
+<center>
+
+ <form action="test.php" method="post">
+  <label for="theName"> Name & Surname: </label><br>
+  <input type="text" name="name" id="theName"> <br>
+  <label for="theDate">Date of Birth:</label><br>
+  <input type="date" id="theDate" name="date"><br>
+  <label for="theEmail"> Email: </label><br>
+  <input type="email" name="email" id="theEmail"> <br>
+  <label for="thePassword"> Password: </label><br>
+  <input type="password" name="userpassword"> <br>
+  <label for="gender">Gender:</label><br>
+   <select name="Gender" id="gender">
+    <option>Don't want to share</option>
+    <option>female</option>
+    <option>male</option>
+  </select> 
+   <br>
+   <label for="mes"><p>About Me</p> </label>
+   <textarea rows="5" cols="30" name="mes" id="mes">
+   </textarea><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label for="pic">Upload Your Photo:</label>
+   <input type="file" name="fileToUpload" id="pic"> <br><br>
+    <label for="int"> Mark Your Interests </label> <br><br>
+    <input type="checkbox" name="books"   > Books <br>
+    <input type="checkbox" name="films"   >Films<br>
+    <input type="checkbox" name="Game"   >Game<br>
+    <input type="checkbox" name="music"   >Music<br><br>
+    <input type="Reset" value="Reset" onclick="return confirm ('Are you sure to reset?');">	<br><br>
+    <input type="button" value="Submit" onclick="return confirm ('Thanks for registration!')">	<br><br>
+        </form>
+<a href="index.html">
+<img src="home.png" alt="homepage" style="width:50px;height:50px;" > </a>
+
+
+  </center>
+ </body>
+</html>
+
+
